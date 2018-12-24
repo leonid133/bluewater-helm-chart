@@ -5,7 +5,7 @@
 replicaCount: 1
 
 image:
-  fullName: docker.hydrosphere.io/bluewater@sha256:26c9386a3976b0cbab7643d69f52d0d3828caeb1ae89789b02390794346ef200
+  fullName: docker.hydrosphere.io/bluewater@sha256:7b93f72285b4dcc7df5bb3a3be5cab465d53364a8ddef11bc48e3f740d630180
   pullPolicy: IfNotPresent
 
 nameOverride: ""
