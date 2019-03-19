@@ -53,6 +53,8 @@ env:
       secretKeyRef:
         name: slack-creds
         key: verification_token
+  - name: NLP_HTTP_URL
+    value: "https://dev.k8s.hydrosphere.io/gateway/application/bluewater"
 
 resources: {}
   # We usually recommend not to specify default resources and to leave this as a conscious
