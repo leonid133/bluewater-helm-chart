@@ -7,7 +7,7 @@ metadata:
     chart: {{ include "chart.chart" . }}
     heritage: {{ .Release.Service }}
     release: {{ .Release.Name }}
-  name: {{ template "mongodb.fullname" . }}
+  name: "bluewater-{{ .Release.Name }}"
 spec:
   accessModes:
   {{- range .Values.persistence.accessModes }}
