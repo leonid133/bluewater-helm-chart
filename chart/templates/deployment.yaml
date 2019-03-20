@@ -27,6 +27,9 @@ spec:
             - name: http
               containerPort: 5000
               protocol: TCP
+          volumeMounts:
+            - name: data
+              mountPath: /data
           livenessProbe:
             httpGet:
               path: /health
